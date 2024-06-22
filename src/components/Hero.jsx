@@ -38,7 +38,7 @@ const Hero = () => {
       </div>
 
       <div className="flex gap-2 justify-center md:gap-3 lg:gap-5 z-[1]">
-        <div className="w-[403px] bg-gradient-to-br from-blue-950 to-slate-900 rounded-lg border border-blue-950 p-6">
+        <div className="w-[403px] bg-gradient-to-br from-blue-950 to-slate-900 rounded-lg border border-blue-800/40 p-6">
           <div className="flex items-center justify-center">
             <img className="hero-img" src={PROFILE_PIC} alt="img one" />
           </div>
