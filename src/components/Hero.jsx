@@ -24,9 +24,9 @@ const Hero = () => {
       id="hero"
     >
       <div className="flex-1 text-center md:text-left z-[1]">
-        <span className="text-xs md:text-sm text-blue-200 font-thin">
+        {/* <span className="text-xs md:text-sm text-blue-200 font-thin">
           A Full Stack Developer
-        </span>
+        </span> */}
 
         <h2 className="text-3xl mt-3 md:text-5xl md:mt-5">{name} <FaBug size={40} className="inline-block ml-2"/> </h2>
         {/* 👋 */}
@@ -44,8 +44,8 @@ const Hero = () => {
           </div>
 
           <div className="bg-cardbg rounded-md text-center mt-3 p-4">
-            <h5 className="text-sm md:text-base text-white">{name}</h5>
-            <p className="text-slate-500 text-xs md:font-medium mt-1">
+            {/* <h5 className="text-sm md:text-base text-white">{name}</h5> */}
+            <p className="text-blue-300 text-xl md:font-medium mt-1">
               {jobTitle}
             </p>
 
@@ -55,7 +55,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <InfoTile
+          {/* <InfoTile
             icon={<FiMail size={20} className="text-sky-400" />}
             text={email}
           />
@@ -63,7 +63,7 @@ const Hero = () => {
           <InfoTile
             icon={<MdOutlineBadge size={22} className="text-sky-400" />}
             text={`${yearsOfExperience} Years of Experience`}
-          />
+          /> */}
 
           <div className="flex items-center gap-2 flex-wrap my-3">
             {skills.map((item) => (
