@@ -17,9 +17,8 @@ const Navbar = () => {
       {isMenuOpen && (
         <MobileNavbar isOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       )}
-
-      <div className="w-screen hidden md:flex items-center justify-center py-4 fixed top-0 z-10 ">
-        <nav className="max-w-screen-xl mx-auto py-3 px-6 bg-navbg rounded-xl shadow-lg shadow-sky-600/10">
+      <div className="w-screen fixed top-0 z-10">
+        <nav className="w-full py-3 px-6 bg-navbg shadow-lg shadow-sky-600/10">
           <ul className="flex items-center gap-14">
             <li>
               <Link to="hero" smooth spy offset={-80} className="menu-item">
