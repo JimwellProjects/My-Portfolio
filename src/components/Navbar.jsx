@@ -3,7 +3,8 @@ import MobileNavbar from "./MobileNavbar";
 import { Link } from "react-scroll";
 
 import { RiCloseFill } from "react-icons/ri";
-import { CgMenuMotion } from "react-icons/cg";
+import { IoMenu } from "react-icons/io5";
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState();
@@ -64,7 +65,7 @@ const Navbar = () => {
           onClick={toggleMenu}
           className="w-11 h-11 text-2xl text-sky-300 bg-blue-800/40 border border-sky-900/80 backdrop-blur-lg flex items-center justify-center rounded md:hidden z-50 ml-auto"
         >
-          {isMenuOpen ? <RiCloseFill /> : <CgMenuMotion />}
+          {isMenuOpen ? <RiCloseFill /> : <IoMenu />}
         </button>
       </div>
     </>
