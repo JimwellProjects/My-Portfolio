@@ -95,8 +95,8 @@ export const ABOUT_ME_DATA = {
   careerGoals: "In the future, I aim to continue honing my skills as a developer, exploring new technologies, and contributing to meaningful projects that make a positive impact on people's lives.",
 
   stats: {
-    yearsOfExperience: '11+',
-    numberOfProjects: 20,
-    certificationsEarned: 8,
+    yearsOfExperience: '2',
+    numberOfProjects: '5',
+    certificationsEarned: 2,
   },
 };
