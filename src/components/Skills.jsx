@@ -6,7 +6,9 @@ const Skills = () => {
     <section className="max-w-screen-xl px-6 mx-auto pb-20" id="skills">
       <div className="bg-gradient-to-br from-blue-950 to-slate-900 rounded-lg border border-blue-800/40 p-4 md:p-8">
         
-        <h5 className="text-xl font-medium mb-5">Technical Skills</h5>
+      <h5 className="text-primary text-2xl md:text-4xl font-semibold text-center md:text-left pb-10 md:pb-14 ">
+        Skills
+      </h5>
         
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {SKILLS.map((skill) => (
