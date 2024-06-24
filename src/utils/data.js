@@ -10,7 +10,8 @@ import { SiMongodb } from "react-icons/si";
 export const PROFILE_DATA = {
   profilePicture: "https://via.placeholder.com/150",
   name: "Jimwell Chavez",
-  tagline: `Passionate React JS developer with 2 years of experience, dedicated to crafting immersive web experiences and solving complex challenges.`,
+  // tagline: `Passionate React JS developer with 2 years of experience, dedicated to crafting immersive web experiences and solving complex challenges.`,
+  tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque mi eget erat consequat tempor. Sed eu volutpat erat.`,
   jobTitle: "Full Stack Developer",
   location: "Pasay City, Metro Manila",
   yearsOfExperience: 2,
@@ -108,7 +109,7 @@ export const WORK_EXPERIENCE = [
 ];
 
 export const ABOUT_ME_DATA = {
-  introduction: "Hi, I'm Jimwell Chavez, an experienced React JS developer passionate about building engaging web applications and solving complex problems with code.",
+  introduction: "Hi, I'm Jimwell Chavez, an React JS developer passionate about building engaging web applications and solving complex problems with code.",
   // background: "I hold a Bachelor's degree in Information Technology from the Urdaneta City University. Over the past 2 years, I've gained valuable experience in frontend development, working on projects ranging from e-commerce websites to interactive dashboards.",
   // skills: "I'm proficient in a variety of technologies including React.js, JavaScript, HTML, CSS, and Node.js. I'm also experienced in using version control systems like Git and working with RESTful APIs.",
   // projects: "Some of my notable projects include an e-commerce website built with React.js and Redux, a social media dashboard using Node.js and MongoDB, and a personal portfolio website deployed with Netlify.",
