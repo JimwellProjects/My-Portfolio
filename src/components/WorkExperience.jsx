@@ -4,20 +4,13 @@ import BG_GRADIENT from "../assets/bg-gradient-1.png";
 
 const WorkExperience = () => {
   return (
-    <section
-      className="max-w-screen-xl mx-auto pb-0 md:pb-20 px-6 md:px-20 relative"
-      id="experience"
-    >
-      <img
-        src={BG_GRADIENT}
-        className="w-[60vw] absolute -left-72 -top-56 aspect-square"
-      />
+    <section className="max-w-screen-xl mx-auto pb-0 md:pb-20 px-6 md:px-20 relative" id="experience">
+
+      <img src={BG_GRADIENT} className="w-[60vw] absolute -left-72 -top-56 aspect-square"/>
 
       <div class="ui-circle absolute bottom-6 md:-bottom-24 -right-10 md:-right-8 rotate-45"></div>
 
-      <h5 className="text-primary text-2xl md:text-3xl font-semibold text-center pb-14 md:pb-4">
-        Work Experience
-      </h5>
+      <h5 className="text-primary text-2xl md:text-3xl font-semibold text-center pb-10 md:pb-4"> Work Experience </h5>
 
       {WORK_EXPERIENCE.map((item, index) => (
         <WorkExperienceCard

@@ -61,4 +61,18 @@ const InfoCard = ({ lable, count }) => {
   );
 };
 
+{/* <div className="bg-gradient-to-br from-blue-950 to-slate-900 rounded-lg border border-blue-800/40 px-4 md:px-6 py-3">
+<div className="flex items-center justify-between">
+  <h6 className="text-primary text-xl md:text-2xl font-semibold">
+    {count}
+  </h6>
+  <button className="ml-4 bg-blue-500 text-white text-xs  w-20 h-8 rounded">
+      See
+  </button>
+</div>
+<span className="text-blue-300 text-xs md:text-sm font-thin">
+  {lable}
+</span>
+</div> */}
+
 export default AboutMe;

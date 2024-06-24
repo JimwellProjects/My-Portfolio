@@ -26,6 +26,10 @@ const MobileNavbar = ({ isOpen, setIsMenuOpen }) => {
             <a className="menu-item">Work Experience</a>
           </li>
 
+          <li className="mb-5" onClick={() => handleScroll("projects")}>
+            <a className="menu-item">Projects</a>
+          </li>
+
           <li className="mb-8" onClick={() => handleScroll("about")}>
             <a className="menu-item">About Me</a>
           </li>

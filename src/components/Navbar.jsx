@@ -34,14 +34,14 @@ const Navbar = () => {
             </li>
 
             <li>
-              <Link
-                to="experience"
-                smooth
-                spy
-                offset={-80}
-                className="menu-item"
-              >
+              <Link to="experience" smooth spy offset={-80} className="menu-item">
                 Work Experience
+              </Link>
+            </li>
+
+            <li>
+              <Link to="projects" smooth spy offset={-80} className="menu-item">
+                Projects
               </Link>
             </li>
 

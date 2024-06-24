@@ -69,7 +69,8 @@ const Contact = () => {
 const ContactInfoCard = ({ icon, text }) => {
   return (
     <div className="flex items-center gap-5 bg-gradient-to-br from-blue-950 to-slate-900 rounded border border-blue-800/40 px-4 py-3 mb-5">
-      <div className="w-10 h-10 text-xl text-sky-200 flex items-center justify-center bg-blue-950 rounded border border-sky-900">
+      <div className="w-10 h-10 text-xl flex items-center justify-center bg-blue-800/30 rounded hover:scale-105 transition-all ease-in-out">
+      {/* <div className="w-10 h-10 text-xl items-center justify-center bg-blue-800/30 p-2 rounded hover:scale-105 transition-all ease-in-out"> */}
         {icon}
       </div>
 
