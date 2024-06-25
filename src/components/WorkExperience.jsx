@@ -58,7 +58,7 @@ const WorkExperienceCard = ({
               <FaReact className="text-primary text-2xl ml-2" /> 
               <FaReact className="text-primary text-2xl ml-2" /> 
             </div>
-            <span className="text-blue-400 text-xs">{position}</span>
+            <span className="text-blue-400 text-base">{position}</span>
           </div>
 
           <div className="text-sky-200 text-[11px] md:text-xs font-medium bg-blue-950 rounded border border-blue-700/50 border-dashed justify-center items-center px-4 py-2">
