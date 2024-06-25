@@ -1,6 +1,7 @@
 import React from "react";
 import { WORK_EXPERIENCE } from "../utils/data";
 import BG_GRADIENT from "../assets/bg-gradient-1.png";
+import { FaReact } from "react-icons/fa";
 
 const WorkExperience = () => {
   return (
@@ -50,9 +51,13 @@ const WorkExperienceCard = ({
       <div className="bg-gradient-to-br from-blue-950 to-slate-900 rounded-lg border border-blue-800/40 p-4 mx-0 md:mx-10 md:absolute top-[70px] mb-6 md:mb-0">
         <div className="flex items-center justify-between flex-1">
           <div>
-            <p className="text-white text-[13.5px] md:text-base font-medium leading-4 md:leading-5">
-              {company}
-            </p>
+            <div className="flex items-center justify-between">
+              <p className="text-white text-[13.5px] md:text-base font-medium leading-4 md:leading-5">
+                {company}
+              </p>
+              <FaReact className="text-primary text-2xl ml-2" /> 
+              <FaReact className="text-primary text-2xl ml-2" /> 
+            </div>
             <span className="text-blue-400 text-xs">{position}</span>
           </div>
 
@@ -61,9 +66,7 @@ const WorkExperienceCard = ({
           </div>
         </div>
 
-        <p className="text-blue-50 text-xs font-thin leading-5 mt-5">
-          {description}
-        </p>
+        <p className="text-blue-50 text-xs font-thin leading-5 mt-3">{description}</p>
       </div>
     </div>
   );

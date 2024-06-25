@@ -13,12 +13,7 @@ import BG_GRADIENT from "./assets/wave.png";
 const App = () => {
   return (
     <div className="bg-background">
-      <div
-        style={{
-          backgroundImage: `url(${BG_GRADIENT})`,
-          backgroundPosition: `50% 50%`,
-        }}
-      >
+      <div style={{ backgroundImage: `url(${BG_GRADIENT})`, backgroundPosition: `50% 50%`,}}>
         <Navbar />
         <Hero />
       </div>

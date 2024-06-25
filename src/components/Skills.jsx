@@ -1,6 +1,7 @@
 import React from "react";
 import { SKILLS } from "../utils/data";
 
+
 const Skills = () => {
   return (
     <section className="max-w-screen-xl px-6 mx-auto pb-20" id="skills">
@@ -10,7 +11,7 @@ const Skills = () => {
         Skills
       </h5>
         
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
           {SKILLS.map((skill) => (
             <SkillsCard
               key={skill.id}
@@ -34,7 +35,6 @@ const SkillsCard = ({ icon: Icon, iconProps, title, comment }) => {
         <p className="text-base">{title}</p>
         <Icon className="text-primary text-3xl" />
       </div>
-      {/* <p className="text-xs font-light leading-5 opacity-80">{comment}</p> */}
     </div>
   );
 };
