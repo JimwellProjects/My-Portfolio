@@ -55,8 +55,8 @@ const WorkExperienceCard = ({
               <p className="text-white text-[13.5px] md:text-base font-medium leading-4 md:leading-5">
                 {company}
               </p>
-              <FaReact className="text-primary text-2xl ml-2" /> 
-              <FaReact className="text-primary text-2xl ml-2" /> 
+              <FaReact className="text-primary text-xl ml-2" /> 
+              <FaReact className="text-primary text-xl ml-2" /> 
             </div>
             <span className="text-blue-400 text-base">{position}</span>
           </div>

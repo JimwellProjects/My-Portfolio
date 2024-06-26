@@ -11,7 +11,7 @@ const Skills = () => {
         Skills
       </h5>
         
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
           {SKILLS.map((skill) => (
             <SkillsCard
               key={skill.id}

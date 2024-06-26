@@ -1,3 +1,4 @@
+import { GrMysql } from "react-icons/gr";
 import {
   IoLogoJavascript,
   IoLogoHtml5,
@@ -5,7 +6,7 @@ import {
   IoLogoNodejs,
 } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiCocos, SiExpress, SiMongodb, SiTypescript } from "react-icons/si";
+import { SiCocos, SiExpress, SiHibernate, SiMongodb, SiMysql, SiTypescript } from "react-icons/si";
 
 export const PROFILE_DATA = {
   profilePicture: "https://via.placeholder.com/150",
@@ -23,6 +24,7 @@ export const PROFILE_DATA = {
     "Git",
     "Node.js",
     "RESTful APIs",
+    "Game Development",
   ],
   email: "jimwellchavez24@gmail.com",
   phone: "+639451025824",
@@ -42,38 +44,43 @@ export const SKILLS = [
   },
   {
     id: "03",
-    icon: IoLogoReact,
-    title: "React JS",
-  },
-  {
-    id: "04",
     icon: IoLogoNodejs,
     title: "Node JS",
   },
   {
-    id: "05",
-    icon: SiMongodb,
-    title: "MongoDB",
-  },
-  {
-    id: "06",
+    id: "04",
     icon: SiExpress,
     title: "ExpressJs",
   },
   {
-    id: "07",
+    id: "05",
+    icon: IoLogoReact,
+    title: "React JS",
+  },
+  {
+    id: "06",
     icon: IoLogoHtml5,
     title: "HTML",
   },
   {
-    id: "08",
+    id: "07",
     icon: RiTailwindCssFill,
     title: "Tailwind CSS",
   },
   {
-    id: "09",
+    id: "08",
     icon: SiCocos,
     title: "Cocos Creator",
+  },
+  {
+    id: "09",
+    icon: SiMongodb,
+    title: "MongoDB",
+  },
+  {
+    id: "10",
+    icon: GrMysql,
+    title: "MySQL",
   },
 ];
 
@@ -104,7 +111,7 @@ export const WORK_EXPERIENCE = [
     company: "By Technology Inc.",
     position: "Web Game Developer",
     icon_1: IoLogoJavascript,
-    duration: "02-2023 / Present",
+    duration: "03-2023 / Present",
     description:
       "Developed web-based games using Cocos Creator and Cocos2dx with TypeScript, integrating graphics, animations, and multimedia. Developed clean, efficient code for game mechanics and UI features, collaborating with designers and artists throughout. Conducted thorough testing and debugging to ensure game stability and iteratively refined features based on requirements.",
   },

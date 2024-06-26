@@ -1,8 +1,6 @@
 import React from "react";
 import { HiOutlineLocationMarker } from "react-icons/hi";
-import { FiMail } from "react-icons/fi";
-import { MdOutlineBadge } from "react-icons/md";
-import { FaBug, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBug, FaCodeBranch, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import { PROFILE_DATA } from "../utils/data";
 
 import PROFILE_PIC from "../assets/profile-pic-1.png";
@@ -24,10 +22,8 @@ const Hero = () => {
         {/* <span className="text-xs md:text-sm text-blue-200 font-thin">
           A Full Stack Developer
         </span> */}
-
-        <h2 className="text-3xl mt-3 md:text-5xl md:mt-5">{name} <FaBug size={40} className="inline-block ml-2"/> </h2>
-        {/* 👋 */}
-        <p className="w-full text-xs font-light text-neutral-50 leading-5 my-6 lg:w-[38vw] md:text-sm md:leading-6 md:my-8">{tagline}</p>
+        <h2 className="text-3xl mt-3 md:text-5xl md:mt-5">{name} <FaCodeBranch size={40} className="inline-block ml-2"/> </h2>
+        <p className="w-full text-xs font-light text-neutral-50 leading-5 my-6 lg:w-[38vw] md:text-sm md:leading-6 md:my-6">{tagline}</p>
         <button className="primary-btn">Contact Me</button>
       </div>
 
@@ -48,16 +44,6 @@ const Hero = () => {
               <p className="font-medium">{location}</p>
             </div>
           </div>
-
-          {/* <InfoTile
-            icon={<FiMail size={20} className="text-sky-400" />}
-            text={email}
-          />
-
-          <InfoTile
-            icon={<MdOutlineBadge size={22} className="text-sky-400" />}
-            text={`${yearsOfExperience} Years of Experience`}
-          /> */}
 
           <div className="flex items-center gap-2 flex-wrap my-3">
             {skills.map((item) => (
@@ -96,12 +82,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-const InfoTile = ({ icon, text }) => {
-  return (
-    <div className="flex items-center gap-4 bg-cardbg p-4 mt-3 rounded-md">
-      {icon}
-      <p className="text-xs md:text-sm font-normal">{text}</p>
-    </div>
-  );
-};
