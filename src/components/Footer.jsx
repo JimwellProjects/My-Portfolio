@@ -22,7 +22,8 @@ const Footer = () => {
           </a>
         </div>
         <h5 className="text-primary text-xs font-semibold text-center pt-4">
-        © Copyright 2024 Jimwell Code. All Rights Reserved
+        © Copyright 2024 PixelCoder. All Rights Reserved
+        {/* TechTinker */}
         </h5>
     </div>
   );
