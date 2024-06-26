@@ -4,9 +4,8 @@ import { FaBug, FaCodeBranch, FaEnvelope, FaGithub, FaLinkedin } from "react-ico
 import { PROFILE_DATA } from "../utils/data";
 
 import PROFILE_PIC from "../assets/profile-pic-1.png";
-import { PiExclude } from "react-icons/pi";
-import { GoCode } from "react-icons/go";
-import { IoLogoCodepen } from "react-icons/io5";
+import { IoCodeSharp, IoLogoCodepen } from "react-icons/io5";
+import { BsCodeSquare } from "react-icons/bs";
 
 const Hero = () => {
   const {
@@ -25,7 +24,8 @@ const Hero = () => {
         {/* <span className="text-xs md:text-sm text-blue-200 font-thin">
           A Full Stack Developer
         </span> */}
-        <h2 className="text-3xl mt-3 md:text-5xl md:mt-5">{name} <IoLogoCodepen size={40} className="inline-block ml-2"/> </h2>
+        <h2 className="text-3xl mt-3 md:text-5xl md:mt-5">{name} <BsCodeSquare size={40} className="inline-block ml-2 text-primary "/> </h2>
+        {/* IoLogoCodepen another icon*/}
         <p className="w-full text-xs font-light text-neutral-50 leading-5 my-6 lg:w-[38vw] md:text-sm md:leading-6 md:my-6">{tagline}</p>
         <button className="primary-btn">Contact Me</button>
       </div>

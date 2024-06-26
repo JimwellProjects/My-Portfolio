@@ -74,7 +74,7 @@ const ContactInfoCard = ({ icon, text }) => {
         {icon}
       </div>
 
-      <p className="text-cyan-100 text-xs md:text-sm">{text}</p>
+      <p className="text-sky-500 text-xs md:text-sm">{text}</p>
     </div>
   );
 };

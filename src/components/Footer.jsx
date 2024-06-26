@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
           </a>
         </div>
-        <h5 className="text-primary text-xs font-semibold text-center pt-4">
+        <h5 className="text-sky-500 text-xs font-semibold text-center pt-4">
         © Copyright 2024 PixelCoder. All Rights Reserved
         {/* TechTinker */}
         </h5>
