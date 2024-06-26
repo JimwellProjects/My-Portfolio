@@ -127,9 +127,8 @@ export const WORK_EXPERIENCE = [
 
 export const ABOUT_ME_DATA = {
   introduction: "Hi, I'm Jimwell Chavez, an React JS developer passionate about building engaging web applications and solving complex problems with code.",
-  background: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque mi eget erat consequat tempor. Sed eu volutpat erat. Sed sagittis vestibulum dictum. Donec nisi augue, dictum eu orci in, suscipit vehicula enim. Proin at pellentesque leo. Maecenas non augue sit amet diam consequat consequat.",
-   // background: "I hold a Bachelor's degree in Information Technology from the Urdaneta City University. Over the past 2 years, I've gained valuable experience in frontend development, working on projects ranging from e-commerce websites to interactive dashboards.",
-  // skills: "I'm proficient in a variety of technologies including React.js, JavaScript, HTML, CSS, and Node.js. I'm also experienced in using version control systems like Git and working with RESTful APIs.",
+  background: "I hold a Bachelor's degree in Information Technology from the Urdaneta City University. Over the past 2 years, I've gained valuable experience in Web App development, working on projects.",
+  skills: "I'm proficient in a variety of technologies including React.js, JavaScript, HTML, CSS, and Node.js. I'm also experienced in using version control systems like Git and working with RESTful APIs.",
   // projects: "Some of my notable projects include an e-commerce website built with React.js and Redux, a social media dashboard using Node.js and MongoDB, and a personal portfolio website deployed with Netlify.",
   // interests: "Outside of coding, I enjoy traveling to new places, capturing moments through photography, and playing guitar. I'm also an avid reader and love exploring new cuisines.",
   // careerGoals: "In the future, I aim to continue honing my skills as a developer, exploring new technologies, and contributing to meaningful projects that make a positive impact on people's lives.",
