@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { PROJECTS } from "../utils/data";
 import  PROJECT_1_COVER  from "../assets/Projects/Project-1/project-1-cover.png";
+import  PROJ_PIC_2  from "../assets/WebProjectPics/pic-2.png";
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 
@@ -43,7 +44,7 @@ const ProjectsCard = ({ icon: Icon, title, content }) => {
 
   return (
     <div className="bg-slate-900 rounded p-5">
-      <img src={PROJECT_1_COVER} alt="Card Image" className="rounded mb-5 w-full h-48 object-cover" />
+    <img src={PROJECT_1_COVER} alt="Card Image" className="rounded mb-5 w-full h-48 object-cover"/>
       <div className="flex items-center justify-between mb-5">
         <p className="text-base text-white">{title}</p>
         <div className="flex space-x-2">
@@ -60,11 +61,11 @@ const ProjectsCard = ({ icon: Icon, title, content }) => {
        onClick={onOpenModal}>
         See More
       </button>
-      <Modal open={open} onClose={onCloseModal} classNames={{modal: 'bg-white p-6 rounded-lg shadow-lg size-10/12'}} center>
+      <Modal open={open} onClose={onCloseModal} classNames={{modal: 'bg-slate-50 p-6 rounded-lg shadow-lg size-10/12'}} center>
         <div className='p-4 overflow-y-auto'>
           <div className="flex flex-col items-center">
-            <img src={PROJECT_1_COVER} className="mb-4 rounded-lg size-11/12 max-w-full h-auto" />
-            <h2 className="text-2xl font-bold mb-2 text-sky-500">Title</h2>
+            <img src={PROJ_PIC_2} className="mb-4 rounded-lg size-11/12 max-w-full h-auto" />
+            <h2 className="text-2xl font-bold mb-2 text-sky-500">{title}</h2>
             <p className="text-gray-700 mb-6 text-justify">
               {content}
             </p>

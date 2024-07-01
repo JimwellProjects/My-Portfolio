@@ -1,7 +1,7 @@
 import React from "react";
 import { ABOUT_ME_DATA } from "../utils/data";
 
-import PROFILE_PIC from "../assets/profile-pic-2.png";
+import PROFILE_PIC from "../assets/profile-pic-1.png";
 
 const AboutMe = () => {
   return (
