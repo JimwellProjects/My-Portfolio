@@ -19,6 +19,7 @@ export const PROFILE_DATA = {
   skills: [
     "React.js",
     "JavaScript",
+    "TypeScript",
     "HTML",
     "CSS",
     "Git",
