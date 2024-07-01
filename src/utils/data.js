@@ -50,7 +50,7 @@ export const SKILLS = [
   {
     id: "04",
     icon: SiExpress,
-    title: "ExpressJs",
+    title: "Express Js",
   },
   {
     id: "05",

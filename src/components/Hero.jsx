@@ -2,7 +2,6 @@ import React from "react";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { FaBug, FaCodeBranch, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import { PROFILE_DATA } from "../utils/data";
-
 import PROFILE_PIC from "../assets/profile-pic-1.png";
 import { IoCodeSharp, IoLogoCodepen } from "react-icons/io5";
 import { BsCodeSquare } from "react-icons/bs";
