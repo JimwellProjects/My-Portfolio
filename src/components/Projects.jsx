@@ -61,7 +61,7 @@ const ProjectsCard = ({ icon: Icon, title, content }) => {
        onClick={onOpenModal}>
         See More
       </button>
-      <Modal onClose={onCloseModal} classNames={{modal: 'bg-slate-50 p-6 rounded-lg shadow-lg size-10/12'}} center>
+      <Modal open={open} onClose={onCloseModal} classNames={{modal: 'bg-slate-50 p-6 rounded-lg shadow-lg size-10/12'}} center>
         <div className='p-4 overflow-y-auto'>
           <div className="flex flex-col items-center">
             <img src={PROJ_PIC_2} className="mb-4 rounded-lg size-11/12 max-w-full h-auto" />
