@@ -21,7 +21,7 @@ export const PROFILE_DATA = {
     "JavaScript",
     "TypeScript",
     "HTML",
-    "CSS",
+    "CSS5",
     "Git",
     "Node.js",
     "RESTful APIs",
