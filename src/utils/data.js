@@ -11,7 +11,6 @@ import { SiCocos, SiExpress, SiHibernate, SiMongodb, SiMysql, SiTypescript } fro
 export const PROFILE_DATA = {
   profilePicture: "https://via.placeholder.com/150",
   name: "Jimwell Chavez",
-  // tagline: `Passionate React JS developer with 2 years of experience, dedicated to crafting immersive web experiences and solving complex challenges.`,
   tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque mi eget erat consequat tempor. Sed eu volutpat erat.`,
   jobTitle: "Full Stack Developer",
   location: "Pasay City, Metro Manila",
